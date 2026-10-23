@@ -1,0 +1,26 @@
+repositories:
+  - name: jewelry-platform
+    url: https://github.com/seth-zou/jewelry-platform
+    responsibility: Backend services and workers
+    default_branch: main
+    stack: Java 21, Spring Boot, Maven
+  - name: jewelry-web
+    url: https://github.com/seth-zou/jewelry-web
+    responsibility: Admin, partner, and consumer frontends
+    default_branch: main
+    stack: React, TypeScript, Vite, pnpm
+  - name: jewelry-ledger
+    url: https://github.com/seth-zou/jewelry-ledger
+    responsibility: Go chaincode domain and Fabric governance templates
+    default_branch: main
+    stack: Go, Hyperledger Fabric-oriented templates
+  - name: jewelry-infra
+    url: https://github.com/seth-zou/jewelry-infra
+    responsibility: Alibaba Cloud infrastructure, ACK deployment, Helm, GitOps, runbooks
+    default_branch: main
+    stack: Terraform, Helm, Kubernetes, Alibaba Cloud
+  - name: jewelry-project
+    url: https://github.com/seth-zou/jewelry-project
+    responsibility: Cross-repository architecture, ADRs, governance, and planning
+    default_branch: main
+    stack: Markdown, YAML
